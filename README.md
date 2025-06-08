@@ -21,6 +21,6 @@
 
 ## Tasks to do
 
-- [ ] Front-end deployment
+- [x] Front-end deployment
 - [x] Back-end deployment
 - [x] Database deployment
