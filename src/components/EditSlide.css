@@ -1,0 +1,37 @@
+.editor-container {
+  position: relative;
+  height: 100vh;
+  background: #f3f3f3;
+  overflow: hidden;
+}
+
+.slide-preview {
+  margin-left: 20px;
+  transform: scaleY(0.2) scaleX(0.25);
+  transform-origin: top left;
+  height: 80vh;
+  width: 800px;
+  margin-bottom: -480px;
+  &:active {
+    border: 1px solid black;
+  }
+}
+.left-pane {
+  margin-top: 2%;
+  height: 80vh;
+  width: 250px;
+}
+.canvas {
+  height: 80vh;
+  width: 800px;
+}
+.edit-mode {
+  background-color: wheat;
+}
+.topbar {
+  height: 16vh;
+}
+.menu {
+  width: 50px;
+  height: 50px;
+}
